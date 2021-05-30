@@ -1,0 +1,1290 @@
+/*
+  Theme Name: Skols - Multipurpose HTML Template
+  Author: 
+  Support: admin@gmail.com
+  Description: Skols Rebranded Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. header area
+3. main wrapper box 
+4. benner section 
+5. features section 
+6. pricing section
+7. faq section 
+8. sunscribe section 
+9. footer section 
+*/
+
+
+
+/*--------------------------------------------
+             1. Theme default css 
+--------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,200&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	overflow-x: hidden;
+	background-color: #FFFFFF;
+}
+
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+	float: left;
+}
+
+.f-right {
+	float: right
+}
+
+.fix {
+	overflow: hidden
+}
+
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+	font-family: 'Inter', sans-serif;
+}
+
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none !important;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	color: #261D1C;
+	text-decoration: none;
+}
+
+a,
+button {
+	color: #261D1C;
+	outline: medium none;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Inter', sans-serif;
+	font-weight: normal;
+	color: #261D1C;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none
+}
+
+p {
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #261D1C;
+	margin-bottom: 15px;
+}
+
+hr {
+	border-bottom: 1px solid #261D1C;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+
+label {
+	color: #261D1C;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+*::-moz-selection {
+	background: #261D1C;
+	color: #fff;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	background: #261D1C;
+	color: #fff;
+	text-shadow: none;
+}
+
+::selection {
+	background: #261D1C;
+	color: #fff;
+	text-shadow: none;
+}
+
+*::-moz-placeholder {
+	color: #261D1C;
+	font-size: 14px;
+	opacity: 1;
+}
+
+*::placeholder {
+	color: #261D1C;
+	font-size: 14px;
+	opacity: 1;
+}
+
+button:focus {
+	outline: 0 !important;
+	outline: 0 !important;
+}
+
+.skol_section_title h2 {
+	font-size: 36px;
+	line-height: 43.2px;
+	font-weight: 900;
+	font-style: normal;
+	color: #261D1C;
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 12px;
+}
+
+.skol_section_title p {
+	font-size: 16px;
+	line-height: 32px;
+	font-style: normal;
+	font-weight: 400;
+	color: #261D1C;
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 0;
+}
+
+/*------------------------------------
+         2.  header area
+---------------------------------------*/
+.skol_header_section {
+	width: 1280px;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	padding: 25.5px 62px;
+}
+
+.skol_header_section.header-sticky.sticky {
+	position: fixed;
+	height: 90px;
+	background: #fff;
+	z-index: 99999;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.03);
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.navbar {
+	padding: 0 !important;
+}
+
+.navbar-brand {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.navbar-nav li a {
+	font-size: 14px;
+	line-height: 16.94px;
+	font-style: normal;
+	font-weight: 500;
+	color: #261D1C !important;
+	font-family: 'Inter', sans-serif;
+	padding: 0 !important;
+}
+
+.navbar-nav {
+	align-items: center;
+}
+
+.navbar-nav>li {
+	margin-right: 24px;
+}
+
+.navbar-nav .nav-item.signin-btn {
+	margin-right: 0;
+}
+
+.navbar-nav .nav-item.signin-btn a {
+	font-weight: 600;
+	text-align: center;
+	padding: 13px 24px !important;
+	border-radius: 5px;
+	display: block;
+	background-color: #E06158;
+	color: #fff !important;
+}
+
+.navbar-nav li:nth-child(6) {
+	margin-right: 32px;
+}
+
+
+
+.navbar-expand-lg .navbar-nav a.nav-link.active {
+	color: rgba(38, 29, 28, .8) !important;
+}
+
+.navbar-nav li:nth-child(7) a.nav-link.active {
+	color: #fff !important;
+}
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.skol_header_section {
+		width: 100%;
+		padding: 25.5px 30px;
+	}
+
+	.skol_main_wrapperbox {
+		position: relative;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.skol_header_section {
+		width: 100%;
+		padding: 25.5px 0px;
+	}
+
+}
+
+/* mobile menu design */
+@media (max-width: 991px) {
+	.navbar-light .navbar-toggler {
+		margin-right: 35px;
+	}
+
+	.navbar-brand {
+		margin-left: 35px;
+	}
+
+	
+
+	.navbar-nav {
+		align-items: first baseline;
+		position: absolute;
+		top: 35px;
+		background: #fff;
+		width: 100%;
+		z-index: 99999;
+		height: auto;
+		padding: 30px 0px 92px;
+	}
+
+
+	.navbar-nav>li {
+		width: 100%;
+		padding: 15px 0 18px 33px;
+		height: 48.61px;
+
+	}
+
+	.navbar-nav .nice-select {
+		height: 48.61px;
+		border: transparent;
+		padding-left: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		line-height: 48px;
+		background-color: transparent;
+	}
+
+	.navbar-nav .nice-select .list {
+		margin-top: -9px;
+	}
+
+
+
+	.navbar-nav .nav-item.signin-btn a {
+		display: inline-block;
+	}
+
+	.navbar-light .navbar-toggler {
+		color: transparent !important;
+		border-color: transparent !important;
+	}
+
+	.navbar-toggler .navbar_bars {
+		width: 25.37px;
+		height: 1.87px;
+		background: rgba(13, 62, 98, 1);
+		display: block;
+		position: relative;
+		transform: rotate(-50deg);
+		transition: all .2s ease-in 0s;
+
+	}
+
+	.navbar-toggler.collapsed .navbar_bars::after {
+		transform: rotate(0deg);
+		transition: all .2s ease-in 0s;
+
+		top: 9px;
+		left: 0;
+	}
+
+	.navbar-toggler.collapsed .navbar_bars {
+		transform: rotate(0deg);
+		transition: all .2s ease-in 0s;
+
+	}
+
+	.navbar-toggler .navbar_bars::after,
+	.navbar-toggler .navbar_bars::before {
+		content: "";
+		position: absolute;
+		left: -5px;
+		width: 30px;
+		height: 1.87px;
+		top: 5px;
+		background: rgba(13, 62, 98, 1);
+		display: block;
+		transition: all .2s ease-in 0s;
+	}
+
+	.navbar-toggler.collapsed .navbar_bars::after {
+		width: 20.62px;
+		height: 1.87px;
+		top: 10px;
+		left: 5px;
+		transition: all .2s ease-in 0s;
+
+	}
+
+	.navbar-toggler.collapsed .navbar_bars::before {
+		display: block;
+		transition: all .2s ease-in 0s;
+	}
+
+	.navbar-toggler .navbar_bars::before {
+		display: none;
+		transition: all .3s ease-out 0s;
+	}
+
+	.navbar-toggler .navbar_bars::after {
+		width: 25.37px;
+		height: 1.87px;
+		top: 0px;
+		left: -1px;
+		transform: rotate(-86deg);
+		transition: all .2s ease-in 0s;
+	}
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.skol_header_section {
+		width: 100%;
+		padding: 25.5px 0px;
+	}
+
+	.navbar-brand {
+		margin-left: 15px;
+	}
+
+	.navbar-light .navbar-toggler {
+		margin-right: 5px;
+	}
+
+}
+
+/* -----------------------------------
+           3.  main wrapper box 
+------------------------------------*/
+.skol_main_wrapperbox {
+	position: relative;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	width: 1280px;
+}
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.skol_main_wrapperbox {
+		width: 100%;
+	}
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.skol_main_wrapperbox {
+		width: 100%;
+	}
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.skol_main_wrapperbox {
+		width: 100%;
+	}
+
+}
+
+/* -------------------------------------
+           4. benner section 
+-------------------------------------------*/
+.skol_benner_section {
+	position: relative;
+	padding: 50px 0 60px;
+}
+
+.skol_benner_wrapperbox h2 {
+	font-size: 70px;
+	line-height: 91px;
+	font-weight: 900;
+	color: #261D1C;
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 32px;
+}
+
+.skol_benner_wrapperbox h2 span:visited,
+.skol_benner_wrapperbox h2 span:focus,
+.skol_benner_wrapperbox h2 span {
+	color: rgba(224, 97, 88, 1);
+	font-style: normal;
+}
+
+.skol_benner_wrapperbox p {
+	font-size: 20px;
+	line-height: 30px;
+	font-style: normal;
+	font-weight: 400;
+	color: #261D1C;
+	margin-bottom: 36.83px;
+	font-family: 'Inter', sans-serif;
+}
+
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.skol_benner_wrapperbox h2 {
+		font-size: 55px;
+		line-height: 75px;
+	}
+
+	.skol_benner_wrapperbox p {
+		font-size: 15px;
+		line-height: 27px;
+	}
+
+	.skol_section_title h2 {
+		font-size: 32px;
+	}
+
+	.skol_section_title p {
+		font-size: 14px;
+	}
+
+}
+
+@media (max-width: 768px) {}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.skol_benner_section {
+		padding: 50px 30px 50px;
+	}
+
+	.skol_benner_wrapperbox h2 br {
+		display: none;
+	}
+
+	.skol_benner_wrapperbox h2 {
+		font-size: 28px;
+		line-height: 45px;
+	}
+
+	.skol_benner_wrapperbox p {
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	.skol_benner_modelimg img {
+		width: 90%;
+	}
+
+	.skol_section_title h2 {
+		font-size: 26px;
+		line-height: 32.2px;
+	}
+
+	.skol_section_title p {
+		font-size: 14px;
+		line-height: 27px;
+	}
+
+	.skol_subscribenform_box p {
+		font-size: 13px !important;
+		margin-top: 1px !important;
+	}
+}
+
+@media (max-width: 600px) {
+	.skol_benner_wrapperbox h2 {
+		font-size: 38px;
+		line-height: 45px;
+	}
+}
+
+@media (max-width: 490px) {
+	.skol_benner_wrapperbox h2 {
+		font-size: 28px;
+		line-height: 45px;
+	}
+}
+
+@media (max-width: 480px) {
+	.skol_benner_wrapperbox h2 {
+		font-size: 30px;
+		line-height: 45px;
+	}
+}
+
+@media (max-width: 414px) {
+	.skol_benner_wrapperbox h2 {
+		font-size: 40px;
+		line-height: 42px;
+	}
+}
+
+@media (max-width: 390px) {
+	.skol_benner_section {
+		padding: 50px 15px 50px;
+	}
+
+	.skol_benner_wrapperbox h2 {
+		font-size: 25px;
+		line-height: 34px;
+	}
+
+	.skol_benner_wrapperbox p {
+		font-size: 12px;
+		line-height: 23px;
+	}
+
+	.skol_section_title h2 {
+		font-size: 22px;
+		line-height: 24.2px;
+	}
+
+	.skol_section_title p {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 375px) {
+	.skol_benner_wrapperbox h2 {
+		font-size: 38px;
+		line-height: 40px;
+	}
+}
+
+@media (max-width: 340px) {
+	.skol_section_title p {
+		font-size: 10px;
+	}
+
+	.skol_featuresitems_box p {
+		font-size: 12px;
+		line-height: 22px;
+	}
+
+	.skol_benner_wrapperbox p {
+		font-size: 10px;
+		line-height: 19px;
+	}
+
+	.skol_benner_wrapperbox h2 {
+		font-size: 32px;
+		line-height: 34px;
+	}
+}
+
+@media (max-width: 290px) {
+	.skol_benner_wrapperbox h2 {
+		font-size: 18px;
+		line-height: 34px;
+	}
+}
+
+@media (max-width: 240px) {
+	.skol_benner_wrapperbox h2 {
+		font-size: 16px;
+		line-height: 34px;
+	}
+}
+}
+
+/* -----------------------------
+        5.    features section 
+-------------------------------------*/
+.skol_feature_section {
+	position: relative;
+	width: 100%;
+	padding: 80px 66px 0px 60px;
+}
+
+.skol_featuresitems_box h3 {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 37px;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	color: #261D1C;
+	margin-bottom: 8px;
+}
+
+.skol_featuresitems_box p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	color: #261D1C;
+	margin-bottom: 0px;
+}
+
+.skol_featuresitems_box.middler {
+	border-top: 1px solid rgba(38, 29, 28, .2);
+}
+
+.skol_featuresitems_box.middle_borderset {
+	border-left: 1px solid rgba(38, 29, 28, .2);
+	border-right: 1px solid rgba(38, 29, 28, .2);
+}
+
+.skol_featuresitems_box {
+	padding: 45px 35px;
+	min-height: 314px;
+}
+
+.skol_featuresitems_box.text-center.feature-eight {
+	padding-top: 65px;
+}
+
+.skol_featuresitems_box.text-center.middler.feature-three {
+	padding-top: 54px;
+}
+
+.skol_featuresitems_box.text-center.middler.feature-three .skol_features_icone {
+	margin-bottom: 15px;
+	display: block;
+}
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.skol_featuresitems_box {
+		padding: 45px 15px;
+	}
+
+	.skol_featuresitems_box p br {
+		display: none;
+	}
+
+	.skol_featuresitems_box p {
+		font-size: 12px;
+		line-height: 28px;
+	}
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.skol_featuresitems_box p {
+		font-size: 10px;
+		line-height: 19px;
+
+	}
+
+	.skol_feature_section {
+		padding: 80px 30px 0px 30px;
+	}
+
+	.skol_featuresitems_box p br {
+		display: none;
+	}
+
+	.pricesbox_feature {
+		margin-left: 13px;
+	}
+
+	.skol_featuresitems_box {
+		padding: 45px 12px;
+	}
+
+	.skol_featuresitems_box.feature-two .skol_features_icone {
+		margin-bottom: 10px;
+		display: block;
+	}
+}
+
+@media (max-width: 768px) {}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.skol_feature_section {
+		padding: 60px 30px 0px 30px;
+	}
+
+	.pricesbox_feature {
+		margin-left: 13px;
+	}
+
+	.skol_featuresitems_box {
+		padding: 45px 12px;
+	}
+	.skol_featuresitems_box.middler {
+		border-top: 0;
+	}
+	
+	.skol_featuresitems_box.middle_borderset {
+		border-left: 0;
+		border-right: 0;
+	}
+}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 320px) {
+	.skol_featuresitems_box p br {
+		display: none;
+	}
+
+	.skol_featuresitems_box p {
+		font-size: 12px;
+		line-height: 24px;
+	}
+}
+
+
+/* -----------------------------------
+           7.   faq section 
+---------------------------------------*/
+/* --- --- --- --- */
+.skol_faq_contentbox .btn-link.btn-block.collapsed {
+	font-size: 20px;
+	line-height: 24.2px;
+	font-weight: 600;
+	font-style: normal;
+	color: #261D1C;
+	font-family: 'Inter', sans-serif;
+	border: 0;
+	background: none;
+	text-decoration: none;
+	position: relative;
+	padding: 32px 28px 36px 0;
+}
+
+.skol_faq_contentbox .btn-link {
+	font-size: 20px;
+	line-height: 24.2px;
+	font-weight: 600;
+	font-style: normal;
+	color: #261D1C;
+	font-family: 'Inter', sans-serif;
+	border: 0;
+	background: none;
+	text-decoration: none;
+	position: relative;
+	padding: 32px 28px 0px 0;
+}
+
+.skol_faq_contentbox .btn-link::before {
+	content: "-";
+	position: absolute;
+	right: 0;
+	top: 30px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.skol_faq_contentbox .btn-link.collapsed::before {
+	content: "+";
+	position: absolute;
+	right: 0;
+	top: 30px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+}
+
+.skol_faq_contentbox .btn-link:focus {
+	text-decoration: none;
+	outline: 0;
+}
+
+.skol_faq_contentbox .card-header {
+	padding: 0;
+	background: none;
+	margin-bottom: 0;
+	border: 0 none;
+}
+
+.skol_faq_contentbox .card {
+	border: 0;
+	border-radius: 0;
+	border-bottom: 1px solid rgba(13, 62, 98, .2)!important;
+}
+
+.skol_faq_section {
+	padding-left: 108px;
+	padding-right: 108px;
+	position: relative;
+	width: 100%;
+}
+
+.skol_faq_contentbox .btn-link {
+	font-size: 20px;
+	line-height: 24.2px;
+	font-weight: 600;
+	font-style: normal;
+	color: #261D1C;
+	font-family: 'Inter', sans-serif;
+}
+
+.skol_faq_content_itemsbox p {
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: 400;
+	font-style: normal;
+	color: #261D1C;
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 0 !important;
+}
+
+.skol_faq_content_itemsbox {
+	padding: 23px 0px 32.72px;
+}
+
+.skol_faq_contentbox .card .card-body {
+	padding: 23px 0 32.73px;
+}
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.skol_faq_section {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.skol_faq_content_itemsbox p {
+		font-size: 14px;
+	}
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.skol_faq_section {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.skol_faq_content_itemsbox p br {
+		display: none;
+	}
+
+	.skol_faq_content_itemsbox p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+}
+
+@media (max-width: 768px) {}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.skol_faq_section {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.skol_faq_content_itemsbox p br {
+		display: none;
+	}
+
+	.skol_faq_content_itemsbox h5 {
+		font-size: 14px;
+		line-height: 19.2px;
+	}
+
+	.skol_faq_content_itemsbox p {
+		font-size: 13px;
+		line-height: 28px;
+	}
+
+	.skol_faq_contentbox .btn-link {
+		font-size: 14px;
+	}
+
+	.skol_faq_contentbox .btn-link.btn-block.collapsed {
+		font-size: 14px;
+	}
+
+	.skol_faq_contentbox .btn-link {
+		font-size: 14px;
+
+	}
+
+	.skol_faq_contentbox .btn-link.btn-block.collapsed {
+		padding: 20px 28px 22px 0;
+	}
+
+	.skol_faq_contentbox .btn-link {
+		padding: 22px 28px 0px 0;
+	}
+
+	.skol_faq_contentbox .btn-link::before {
+		top: 22px;
+	}
+
+	.skol_faq_contentbox .btn-link.collapsed::before {
+		top: 20px;
+	}
+}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 320px) {}
+
+/* ---------------------------------------------
+            8.   download section 
+---------------------------------------------*/
+.skol_download_section {
+	padding: 100px 0 100px;
+	position: relative;
+	width: 100%;
+}
+.download_bar_box h3 {
+	font-size: 22.96px;
+	line-height: 27.56px;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+	color: #261D1C;
+	margin-bottom: 19.14px;
+	font-family: 'Inter', sans-serif;
+}
+.download_bar_box p {
+	font-size: 16.04px;
+	line-height: 32.07px;
+	font-weight: 400;
+	font-style: normal;
+	color: #261D1C;
+	margin-bottom: 0;
+	font-family: 'Inter', sans-serif;
+}
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+
+@media (max-width: 768px) {}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.skol_subscribe_section {
+		padding: 100px 30px 100px;
+	}
+
+
+
+	.download_btn_box .download_btn img {
+		width: 149.86px;
+		display: inline-block;
+	}
+
+}
+
+@media (max-width: 414px) {
+	
+}
+
+@media (max-width: 375px) {
+	
+	.download_btn_box .download_btn img {
+		width: 125.86px;
+		display: inline-block;
+	}
+	
+}
+
+@media (max-width: 320px) {}
+
+/* ------------------------------------------
+                9.   footer section 
+------------------------------------------------*/
+.skol_footer_section {
+	padding: 0px 66px 0px 62px;
+	position: relative;
+	width: 100%;
+}
+
+.skol_footer_widgetsbox {
+	padding: 31px 0px 0px 0px;
+	border-top: 1px solid rgba(13, 62, 98, .2);
+}
+
+
+
+.skol_footer_widgetscontent p {
+	font-size: 14px;
+	line-height: 28px;
+	font-style: normal;
+	font-weight: 600;
+	color: #999897;
+	margin-top: 10px;
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 0;
+}
+
+.skol_footer_widgetscontent h5 {
+	font-size: 14px;
+	line-height: 16.94px;
+	font-style: normal;
+	font-weight: 600;
+	color: #261D1C;
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 20.84px;
+}
+
+.skol_footer_widgetscontent .widgets_linkitem li a {
+	font-size: 14px;
+	line-height: 16.94px;
+	font-style: normal;
+	font-weight: 600;
+	color: #999897;
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 14.48px;
+	display: block;
+}
+
+.footeer_copyright_widgets .footer_copyright_widgets {
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: 600;
+	font-style: normal;
+	font-family: 'Inter', sans-serif;
+	color: #999897;
+}
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+	.skol_footer_widgetscontent .widgets_linkitem li a {
+		font-size: 11px;
+		line-height: 13.94px;
+	}
+
+	.skol_footer_widgetscontent p {
+		font-size: 12px;
+		line-height: 25px;
+	}
+
+	.skol_footer_widgetscontent .footer_copyright_widgets {
+		font-size: 12px;
+	}
+
+	.skol_footer_section {
+		padding: 0px 30px 0px 30px;
+	}
+
+	
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.skol_footer_section {
+		padding: 0px 30px 0px 30px;
+	}
+
+	
+}
+
+@media (max-width: 850px) {
+	
+}
+
+@media (max-width: 768px) {
+	
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.skol_footer_section {
+		padding: 0px 15px 0px 15px;
+	}
+
+	.skol_footer_widgetscontent p {
+		display: none;
+	}
+
+	
+
+	.skol_footer_section {
+		padding: 0px 30px 0px 30px;
+	}
+
+	
+
+	.skol_footer_widgetscontent.footer_brand {
+		margin-bottom: 55px;
+	}
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 550px) {
+	
+}
+
+@media (max-width: 414px) {
+	
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
