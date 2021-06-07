@@ -1085,6 +1085,8 @@ button:focus {
 	text-align: center;
 	color: #261D1C;
 	margin-bottom: 19.14px;
+margin-right: 19.14px;
+margin-left: 19.14px;
 	font-family: 'Inter', sans-serif;
 }
 .download_bar_box p {
