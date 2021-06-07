@@ -1079,12 +1079,14 @@ button:focus {
 }
 .download_bar_box h3 {
 	font-size: 22.96px;
-	line-height: 27.56px;
+	line-height: 30px;
 	font-weight: 700;
 	font-style: normal;
 	text-align: center;
 	color: #261D1C;
 	margin-bottom: 19.14px;
+margin-right: 50px;
+margin-left: 50px;
 	font-family: 'Inter', sans-serif;
 }
 .download_bar_box p {
