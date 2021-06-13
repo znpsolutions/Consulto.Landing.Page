@@ -545,7 +545,7 @@ button:focus {
 }
 
 .skol_benner_wrapperbox p {
-	font-size: 20px;
+	font-size: 22px;
 	line-height: 30px;
 	font-style: normal;
 	font-weight: 400;
@@ -565,12 +565,12 @@ button:focus {
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 	.skol_benner_wrapperbox h2 {
-		font-size: 55px;
+		font-size: 68px;
 		line-height: 75px;
 	}
 
 	.skol_benner_wrapperbox p {
-		font-size: 15px;
+		font-size: 17px;
 		line-height: 27px;
 	}
 
@@ -597,13 +597,13 @@ button:focus {
 	}
 
 	.skol_benner_wrapperbox h2 {
-		font-size: 28px;
-		line-height: 45px;
+		font-size: 60px;
+		line-height: 70px;
 	}
 
 	.skol_benner_wrapperbox p {
-		font-size: 16px;
-		line-height: 26px;
+		font-size: 20px;
+		line-height: 30px;
 	}
 
 	.skol_benner_modelimg img {
@@ -628,8 +628,8 @@ button:focus {
 
 @media (max-width: 600px) {
 	.skol_benner_wrapperbox h2 {
-		font-size: 38px;
-		line-height: 45px;
+		font-size: 60px;
+		line-height: 65px;
 	}
 }
 
@@ -642,15 +642,15 @@ button:focus {
 
 @media (max-width: 480px) {
 	.skol_benner_wrapperbox h2 {
-		font-size: 30px;
-		line-height: 45px;
+		font-size: 50px;
+		line-height: 55px;
 	}
 }
 
 @media (max-width: 414px) {
 	.skol_benner_wrapperbox h2 {
-		font-size: 40px;
-		line-height: 42px;
+		font-size: 42px;
+		line-height: 44px;
 	}
 }
 
@@ -1079,14 +1079,14 @@ button:focus {
 }
 .download_bar_box h3 {
 	font-size: 22.96px;
-	line-height: 30px;
+	line-height: 27.56px;
 	font-weight: 700;
 	font-style: normal;
 	text-align: center;
 	color: #261D1C;
 	margin-bottom: 19.14px;
-margin-right: 50px;
-margin-left: 50px;
+	margin-right: 19.14px;
+margin-left: 19.14px;
 	font-family: 'Inter', sans-serif;
 }
 .download_bar_box p {
