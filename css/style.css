@@ -1,5 +1,5 @@
 /*
-  Theme Name: Skols - Multipurpose HTML Template
+  Theme Name: Consulto - Multipurpose HTML Template
   Author: 
   Support: admin@gmail.com
   Description: Skols Rebranded Creative  HTML5 template.
@@ -649,7 +649,7 @@ button:focus {
 
 @media (max-width: 414px) {
 	.skol_benner_wrapperbox h2 {
-		font-size: 42px;
+		font-size: 40px;
 		line-height: 44px;
 	}
 }
