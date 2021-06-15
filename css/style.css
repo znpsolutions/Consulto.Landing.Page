@@ -589,7 +589,7 @@ button:focus {
 /* Extra small Device. */
 @media (max-width: 767px) {
 	.skol_benner_section {
-		padding: 50px 30px 50px;
+		padding: 10px 30px 40px;
 	}
 
 	.skol_benner_wrapperbox h2 br {
@@ -656,7 +656,7 @@ button:focus {
 
 @media (max-width: 390px) {
 	.skol_benner_section {
-		padding: 50px 15px 50px;
+		padding: 10px 15px 40px;
 	}
 
 	.skol_benner_wrapperbox h2 {
