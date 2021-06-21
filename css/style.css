@@ -1148,7 +1148,7 @@ margin-left: 19.14px;
                 9.   footer section 
 ------------------------------------------------*/
 .skol_footer_section {
-	padding: 0px 66px 0px 62px;
+	padding: 0px 0px 0px 0px;
 	position: relative;
 	width: 100%;
 }
@@ -1224,7 +1224,7 @@ margin-left: 19.14px;
 	}
 
 	.skol_footer_section {
-		padding: 0px 30px 0px 30px;
+		padding: 0px 0px 0px 0px;
 	}
 
 	
@@ -1233,7 +1233,7 @@ margin-left: 19.14px;
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 	.skol_footer_section {
-		padding: 0px 30px 0px 30px;
+		padding: 0px 0px 0px 0px;
 	}
 
 	
@@ -1251,7 +1251,7 @@ margin-left: 19.14px;
 /* Extra small Device. */
 @media (max-width: 767px) {
 	.skol_footer_section {
-		padding: 0px 15px 0px 15px;
+		padding: 0px 0px 0px 0px;
 	}
 
 	.skol_footer_widgetscontent p {
@@ -1261,7 +1261,7 @@ margin-left: 19.14px;
 	
 
 	.skol_footer_section {
-		padding: 0px 30px 0px 30px;
+		padding: 0px 0px 0px 0px;
 	}
 
 	
