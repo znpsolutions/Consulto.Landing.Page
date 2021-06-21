@@ -527,7 +527,12 @@ button:focus {
 	position: relative;
 	padding: 50px 0 60px;
 }
-
+span.skol_benner_modelimg.img-one {
+    display: none;
+}
+span.skol_benner_modelimg.img-two {
+    display: block;
+}
 .skol_benner_wrapperbox h2 {
 	font-size: 70px;
 	line-height: 91px;
@@ -623,6 +628,12 @@ button:focus {
 	.skol_subscribenform_box p {
 		font-size: 13px !important;
 		margin-top: 1px !important;
+	}
+	span.skol_benner_modelimg.img-one {
+		display: block;
+	}
+	span.skol_benner_modelimg.img-two {
+		display: none;
 	}
 }
 
